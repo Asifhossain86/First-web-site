@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTSN Form</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label{
+            display:block;
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="">CV</a></li>
+                <li><a href="">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Welcome to ASTSN </h2>
+    <form>
+        <label for="Name">Your Name:
+            <input id="name" typr="text" placeholder="Your Name">
+
+        </label>
+        <label for="email">Your Email:
+            <input id="email" type="text" placeholder="Your Email">
+        </label>
+        <fieldset>
+            <legend>
+                Pick Which survice you want 
+            </legend>
+            <label for="Front end">
+                <input type="checkbox" name="survice" id="Front end">
+                Front End Web Development
+            <label for="Back end">
+                <input type="checkbox" name="survice" id="Back end">
+                Back End Web Development
+            <label for="Mobile App">
+                <input type="checkbox" name="survice" id="Mobile App">
+                Mobile App Development
+            <label for="Ui\Ux">
+                <input type="checkbox" name="survice" id="Ui\Ux">
+                Ui\Ux
+            <label for="Data analysis">
+                <input type="checkbox" name="survice" id="Data analysis">
+                Data analysis
+            <label for="SEO">
+                <input type="checkbox" name="survice" id="SEO">
+                SEO
+                                       
+
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Payment getaway!
+            </legend>
+            <label for="Bikash">
+                <input type="radio" name="payment" id="Bikash">
+                Bikash
+            <label for="Nagad">
+                <input type="radio" name="payment" id="Nagad">
+                Nagod
+            <label for="Paypal">
+                <input type="radio" name="payment" id="payple">
+                Paypal
+            <label for="G-Pay">
+                <input type="radio" name="payment" id="G-Pay">
+                G-Pay
+
+            </label>
+           
+        </fieldset>
+        <br>
+         <input type="Reset" value="Reset">
+        <input type="Submit" valu="Submit">
+
+
+    </form>
+    
+</body>
+</html>
